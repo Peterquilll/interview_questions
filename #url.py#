@@ -1,0 +1,21 @@
+def replace_spaces(string, true_length):
+    space_count = 0
+    i = 0
+    while i < true_length:
+        if [i] == ' ':
+            space_count += 1
+    index = true_length + space_count * 2
+    if true_length < len(string):
+        true_length.append('\0')
+    while i == true_length and i >= 0:
+        if [i] == ' ' :
+            [index - 1]
+            
+
+
+def main():
+    pass
+
+if __name__ == '__main__':
+    main()
+    
