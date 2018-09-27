@@ -33,8 +33,9 @@ def one_edit_insert(s1, s2):
 
 def main():
     first = 'dug'
-    second = 'dug'
-    print(one_edit_away(first, second))
+    second = 'du'
+    result = one_edit_away(first, second)
+    print(result)
 
 if __name__ == '__main__':
     main()
