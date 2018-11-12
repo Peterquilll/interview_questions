@@ -3,7 +3,6 @@ def insert_end(m, n, j, i):
     left_end = v <<  j + 1
     right_end = v << i
     invert_end = right_end ^ v
-    print(bin(invert_end))
     cleared_row = n & left_end
     preserved_end = n & invert_end
     insertion = cleared_row | m << i
