@@ -9,7 +9,7 @@ def decimal_to_binary(d):
             r = r - 1
         else:
             b.append('0')
-        i +=1
+        i += 1
         if i >= 32:
             return 'Error'
             

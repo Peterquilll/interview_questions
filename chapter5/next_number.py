@@ -49,7 +49,7 @@ def main():
     n = 0x2783
     result1 = get_next(n)
     result2 = get_previous(n)
-    print("n = ", n)
+    print("n = ",bin( n))
     print("get_next = ", bin(result1))
     print("get_previous = ", bin(result2)) 
 

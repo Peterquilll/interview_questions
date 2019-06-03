@@ -1,9 +1,0 @@
-def one_edit_away(first, second):
-    if len(first) == len(second):
-        return one_edit_replace(first, second)
-    elif len(first) + 1 == len(second):
-        return one_edit_insert(first, second)
-    elif len(first) - 1 == len(second):
-        return one_edit_insert(second, first)
-    else:
-        return False:
